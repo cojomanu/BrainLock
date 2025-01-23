@@ -100,11 +100,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1vw;
+  width: 100%;
+  max-width: 850px;
 }
 
 /* #region CARD */
 #card {
-  /* background-color: green; */
+  background-color: green;
   width: 100%;
   max-width: 850px;
   display: flex;
