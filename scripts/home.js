@@ -2,7 +2,7 @@
 function updateLocalStorageAndState(checkboxId, inputId, storageKey) {
     const checkbox = document.getElementById(checkboxId);
     const input = document.getElementById(inputId);
-    input.disabled = !checkbox.checked;
+    input.disabled = checkboxId.includes('ShowAllCheckbox') ? checkbox.checked : !checkbox.checked;
     localStorage.setItem(storageKey, checkbox.checked);
 }
 
@@ -15,6 +15,7 @@ function populateDropdown(url, dropdownId) {
     fetch(url)
         .then(response => response.json())
         .then(files => {
+            console.log(files);
             const dropdown = document.getElementById(dropdownId);
             files.forEach(file => {
                 const option = document.createElement('option');
@@ -33,7 +34,7 @@ function initializeSettings(settings) {
 
         document.getElementById(checkboxId).checked = checkboxValue === "true";
         document.getElementById(inputId).value = inputValue;
-        document.getElementById(inputId).disabled = checkboxValue === "false";
+        document.getElementById(inputId).disabled = checkboxId.includes('ShowAllCheckbox') ? checkboxValue === "true" : checkboxValue === "false";
     });
 }
 
