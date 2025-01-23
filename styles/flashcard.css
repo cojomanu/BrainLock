@@ -1,12 +1,20 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../assets/fonts/Inter-VariableFont_opsz\,wght.ttf") format('truetype')
+}
+
+html,
 body {
     background-color: #0e1525;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    height: 100dvh;
     margin: 0;
-    overflow: auto;
-    padding: 0px;
+    padding: 0;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
 }
 
 .view-container {
@@ -27,7 +35,7 @@ body {
 }
 
 /* #region CARD */
-.flashcard-container{
+.flashcard-container {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -93,22 +101,21 @@ body {
     border-bottom-right-radius: 12px;
     cursor: pointer;
 }
+
 /* #endregion */
 
 /* #region HEADER */
 .header {
-    font-family: 'Inter', sans-serif;
     background-color: #3e3e3e99;
     color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 12px 12px 6px 12px;
+    padding: 8px 2vw;
     align-items: center;
 }
 
-.logo
-{
+.logo {
     width: 48px;
     height: 48px;
 }
@@ -152,8 +159,7 @@ body {
 }
 
 @media (max-height: 480px) and (orientation: landscape) {
-    .logo
-    {
+    .logo {
         width: 28px;
         height: 28px;
     }
@@ -177,4 +183,5 @@ body {
         font-size: 14px;
     }
 }
+
 /* #endregion */

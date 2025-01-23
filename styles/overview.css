@@ -28,8 +28,7 @@ body {
   align-items: center;
 }
 
-.logo
-{
+.logo {
   width: 48px;
   height: 48px;
 }
@@ -49,7 +48,7 @@ body {
 
 @media (max-width: 480px) {
   .name {
-      display: none;
+    display: none;
   }
 }
 
@@ -77,6 +76,7 @@ body {
 #unanswered_number_of_answers {
   color: #82C0FC;
 }
+
 /* #endregion */
 
 #cards {
@@ -166,10 +166,11 @@ body {
 }
 
 @media (width > 800px) {
-.checkbox_container {
-  padding: 16px;
+  .checkbox_container {
+    padding: 16px;
+  }
 }
-}
+
 /* #endregion */
 
 .explanation_container {
@@ -206,7 +207,8 @@ p {
 }
 
 /* #region CODE */
-pre, code {
+pre,
+code {
   text-wrap: wrap;
   word-wrap: break-word;
 }
@@ -221,6 +223,7 @@ code {
   display: inline;
   font-size: 0.85rem;
 }
+
 /* #endregion */
 /* #endregion */
 
@@ -244,4 +247,5 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #666;
 }
+
 /* #endregion */
