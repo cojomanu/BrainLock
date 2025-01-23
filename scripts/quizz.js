@@ -70,6 +70,10 @@ function navigateQuestion(direction) {
     displayQuestion();
 }
 
+function saveSelection() {
+    localStorage.setItem("userAnswersIndexes", JSON.stringify(userAnswersIndexes));
+}
+
 function toggleCheck(answerDiv, answerIndex) {
     const checkboxContainer = answerDiv.querySelector('.wireframe_checkbox');
     const checkIcon = checkboxContainer.querySelector('img.small_icon');
@@ -87,7 +91,7 @@ function toggleCheck(answerDiv, answerIndex) {
         userAnswersIndexes[questionIndex] = userAnswersIndexes[questionIndex].filter(index => index !== answerIndex);
     }
 
-    console.log(userAnswersIndexes);
+    saveSelection();
 }
 
 function displayQuestion() {
