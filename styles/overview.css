@@ -95,6 +95,7 @@ body {
   }
 }
 
+/* #region CARD */
 .card {
   /* background-color: green; */
   width: 100%;
@@ -220,4 +221,5 @@ code {
   display: inline;
   font-size: 0.85rem;
 }
+/* #endregion */
 /* #endregion */

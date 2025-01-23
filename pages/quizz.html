@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/quizz.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="branding-container" onclick="window.location='home/home.html'">
+            <label class="name">Brain</label>
+            <img src="../images/logo.svg" class="logo"/>
+            <label class="name">Lock</label>
+        </div>
+
+        <label id="quizz-title">
+            SOME-RANDOME-SUBJECT
+        </label>
+
+        <div class="right-elements">
+            <label id="progress">13/20</label>
+            <label id="timer" hidden="true">12:20 min</label>
+            <img src="../images/fullscreen.svg" class="fullscreen" onclick="toggleFullscreen()"/>
+        </div>
+    </div>
+
+<div id="cards">
+<div id="card_container">
+    <div id="card">
+        <div id="question_number">21.</div>
+
+        <div class="quizz">
+            <div id="question_text">This is a placeholder text. If you are seeing this, it means something has gone terribly wrong. I would probably run away. Good luck!</div>
+
+            <div class="answers">
+                <div class="answer" onclick="toggleCheck(this)">
+                    <div class="answer_text">run away</div>
+
+                    <div class="checkbox_container">
+                        <div class="wireframe_checkbox">
+                            <img class="small_icon" src="../images/fa-solid--check.svg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="answer" onclick="toggleCheck(this)">
+                    <div class="answer_text">stay and probably die</div>
+
+                    <div class="checkbox_container">
+                        <div class="wireframe_checkbox">
+                            <img class="small_icon" src="../images/fa-solid--check.svg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="answer" onclick="toggleCheck(this)">
+                    <div class="answer_text">idk, ure asking too much from me</div>
+
+                    <div class="checkbox_container">
+                        <div class="wireframe_checkbox">
+                            <img class="small_icon" src="../images/fa-solid--check.svg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="answer" onclick="toggleCheck(this)">
+                    <div class="answer_text">LOL CAP</div>
+
+                    <div class="checkbox_container">
+                        <div class="wireframe_checkbox">
+                            <img class="small_icon" src="../images/fa-solid--check.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img class="has_explanation_icon is_hidden" src="../images/question.svg">
+    </div>
+
+    <div class="navigation-container">
+        <div class="lr_navigation">
+            <button id="prev_question" class="navigation-button prev">
+                PREV
+            </button>
+            <button id="next_question" class="navigation-button next"> 
+                NEXT
+            </button>
+        </div>
+        <button id="submit_answers" class="navigation-button submit"> 
+            SUBMIT
+        </button>
+    </div>
+</div>
+</div>
+
+    <script src="../scripts/quizz.js"></script>
+</body>
+</html>
