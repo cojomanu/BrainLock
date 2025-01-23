@@ -117,7 +117,7 @@ function createAnswersContainer(question) {
             $('<div class="answer_text"></div>').html(answer),
             $('<div class="checkbox_container"></div>').append(
                 $('<div class="wireframe_checkbox"></div>').append(
-                    $('<img class="small_icon" src="../images/fa-solid--check.svg">')
+                    $('<img class="small_icon" src="../assets/images/fa-solid--check.svg">')
                         .css('display', isAnswerChecked ? 'block' : 'none')
                 ).addClass(isAnswerChecked ? "checked" : "")
             )
@@ -132,7 +132,7 @@ function createAnswersContainer(question) {
 function createQuestionCard(question, answersContainer) {
     const questionNumber = `<div id="question_number">${questionIndex + 1}.</div>`;
     const questionText = `<div id="question_text">${question.text}</div>`;
-    const explanationIcon = '<img class="has_explanation_icon is_hidden" src="../images/question.svg">';
+    const explanationIcon = '<img class="has_explanation_icon is_hidden" src="../assets/images/question.svg">';
 
     return questionNumber + $('<div class="quizz"></div>').append(
         questionText,

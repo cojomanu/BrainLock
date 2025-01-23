@@ -179,3 +179,150 @@ button {
     background-color: transparent;
 }
 /* #endregion */
+
+/* #region HEADER */
+.header {
+    font-family: 'Inter', sans-serif;
+    background-color: #3e3e3e99;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 12px 6px 12px;
+    align-items: center;
+}
+
+.logo
+{
+    width: 48px;
+    height: 48px;
+}
+
+.report {
+    width: 38px;
+    height: 38px;
+    opacity: 75%;
+}
+
+.branding-container {
+    /* background-color: rebeccapurple; */
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .name {
+        display: none;
+    }
+}
+
+@media (max-height: 480px) and (orientation: landscape) {
+    .logo
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+    .report {
+        width: 24px;
+        height: 24px;
+        opacity: 75%;
+        cursor: pointer;
+    }
+
+    .branding-container {
+        font-size: 18px;
+    }
+
+    #flashcard-title {
+        font-size: 16px;
+    }
+
+    .right-elements {
+        font-size: 14px;
+    }
+}
+/* #endregion */
+
+/* #region FOOTER */
+.footer {
+    font-family: 'Inter', sans-serif;
+    background-color: #3e3e3e99;
+    opacity: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 24px 16px 24px;
+    gap: 16px;
+}
+
+.thx {
+    font-size: 20px;
+    text-align: center;
+}
+
+.credits,
+.issue {
+    /* background-color: red; */
+    width: fit-content;
+    height: fit-content;
+}
+
+img {
+    width: 48px;
+    height: 48px;
+}
+
+a {
+    color: white;
+}
+
+a.highlite {
+    color: #50A7FB;
+}
+
+.others {
+    font-weight: 200;
+    font-size: 15;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.reporting {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 24px;
+    gap: 8px;
+}
+
+.credits {
+    /* background-color: red; */
+    text-align: right;
+    line-height: 24px;
+}
+
+@media (max-width: 800px) {
+    .others {
+        flex-direction: column;
+    }
+
+    .reporting {
+        width: 100%;
+    }
+
+    .credits {
+        width: 100%;
+    }
+}
+/* #endregion */

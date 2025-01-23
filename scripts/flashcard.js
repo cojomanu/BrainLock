@@ -20,7 +20,7 @@ $(document).ready(function () {
             loadQuestion();
         }
         else if ($("#next_question").text() == "HOME") {
-            window.location.href = "../home/home.html";
+            window.location.href = "../pages/home.html";
         }
     });
 });

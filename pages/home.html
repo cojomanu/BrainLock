@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="../styles/home.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="../../snippets/includes.js"></script>
 </head>
 
 <body>
     <div class="screen">
-        <div data-include="header"></div>
+        <div class="header">
+            <div class="branding-container" onclick="window.location='home.html'">
+                <label class="name">Brain</label>
+                <img src="../assets/images/logo.svg" class="logo"/>
+                <label class="name">Lock</label>
+            </div>
+    
+            <img src="../assets/images/report.svg" class="report"/>
+        </div>
 
         <div class="center-container">
             <!-- <h1>GRILE</h1> -->
@@ -103,7 +108,26 @@
         </div>   
     </div>
 
-    <div data-include="footer"></div>
+    <div class="footer">    
+        <label class="thx">Thank you to everyone involved in this project! 🧡</label>
+    
+        <div class="others">
+            <div class="reporting">
+                <img src="../assets/images/github.svg" />
+                <label class="issue">
+                    For any problems or suggestions, please open an <a class="highlite" href="https://github.com/jovanni0/BrainLock/issues">issue</a>.
+                    <br>
+                    You can find the source code for the website on <a class="highlite" href="https://github.com/jovanni0/BrainLock">GithHub</a>.
+                </label>
+            </div>
+            
+            <div class="credits">
+                created by: <a href="https://github.com/cojomanu" target="_blank">cojomanu</a>, <a href="https://github.com/jovanni0" target="_blank">jovanni0</a>
+                <br>
+                hosted by: <a href="https://github.com/cameraManu" target="_blank">cameramanu</a>
+            </div>
+        </div>
+    </div>
 
-    <script src="home.js"></script>
+    <script src="../scripts/home.js"></script>
 </body>

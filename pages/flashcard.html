@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/flashcard.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="branding-container" onclick="window.location='../home/home.html'">
+            <label class="name">Brain</label>
+            <img src="../assets/images/logo.svg" class="logo"/>
+            <label class="name">Lock</label>
+        </div>
+
+        <label id="flashcard-title">
+            TITLE HERE
+        </label>
+
+        <div class="right-elements">
+            <label id="progress">13/20</label>
+            <label id="timer" hidden="true">12:20 min</label>
+            <img src="../assets/images/fullscreen.svg" class="fullscreen" onclick="toggleFullscreen()"/>
+        </div>
+    </div>
+
+    <div class="view-container">
+        <div class="center-container">
+            <div class="flashcard-container">
+                <div id="card" class="question" onclick="flipCard()">
+                    if u see this, something is wrong...
+                </div>
+            
+                <div class="navigation-container">
+                    <button id="prev_question" class="navigation-button prev">
+                        PREV
+                    </button>
+                    <button id="next_question" class="navigation-button next">
+                        NEXT
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../scripts/flashcard.js"></script>
+</body>
+
+</html>

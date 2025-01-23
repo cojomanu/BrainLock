@@ -98,7 +98,7 @@ function extractQuizData(quizz) {
 function fetchAndParseIncludes(xmlDoc) {
     const includeElements = Array.from(xmlDoc.getElementsByTagName("include-element"));
     const promises = includeElements.map(include =>
-        fetch('../../assets/quizzes/' + include.textContent.trim())
+        fetch('../assets/quizzes/' + include.textContent.trim())
             .then(response => response.text())
             .then(parseXMLContent)
             .catch(error => console.error("Error fetching main file:", error))

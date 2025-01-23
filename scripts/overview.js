@@ -52,7 +52,7 @@ function createQuestionCard(question, questionIndex, userAnswersIndexes) {
     return $('<div class="card"></div>').append(
         $('<div id="question_number"></div>').html(questionNumber),
         quizzContainer,
-        $('<img class="has_explanation_icon" src="../images/question.svg"></img>')
+        $('<img class="has_explanation_icon" src="../assets/images/question.svg"></img>')
             .toggleClass("is_hidden", !question.explanation)
     );
 }
@@ -71,8 +71,8 @@ function createAnswersContainer(question, userAnswers) {
             .append(
                 $('<div class="answer_text"></div>').html(answer),
                 $('<div class="checkbox_container"></div>').append(
-                    $('<img class="small_icon" src="../images/fa-solid--check.svg">').toggle(isChecked && isCorrect),
-                    $('<img class="small_icon" src="../images/fluent-emoji-high-contrast--cross-mark.svg">').toggle(isChecked && !isCorrect)
+                    $('<img class="small_icon" src="../assets/images/fa-solid--check.svg">').toggle(isChecked && isCorrect),
+                    $('<img class="small_icon" src="../assets/images/fluent-emoji-high-contrast--cross-mark.svg">').toggle(isChecked && !isCorrect)
                 )
             );
 
