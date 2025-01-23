@@ -1,0 +1,95 @@
+html,
+body {
+  background-color: #0e1525;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  color: white;
+  font-size: 1rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 32px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #CC8400;
+  border-radius: 32px;
+  padding: 32px;
+  gap: 16px;
+  align-items: baseline;
+  max-width: 850px;
+}
+
+.quizz {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.answers {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* #region ANSWER */
+.answer {
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.correct_answer {
+  background-color: #69E469;
+}
+
+.incorrect_answer {
+  background-color: #E96363;
+}
+
+.actual_answer {
+  background-color: #82C0FC;
+}
+
+.answer_text {
+  padding: 10px;
+}
+
+.checkbox_container {
+  height: 44px;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* #endregion */
+
+.horizontal_explanation_divider {
+  background-color: #BFBFBF;
+  height: 2px;
+}
+
+.has_explanation_icon {
+  width: 38px;
+  height: 38px;
+}
+
+.is_hidden {
+  visibility: hidden;
+}
+
+.small_icon {
+  width: 20px;
+  height: 20px;
+}

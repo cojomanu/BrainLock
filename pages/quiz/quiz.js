@@ -75,7 +75,7 @@ function displayQuestion() {
     if (questionIndex + 1 >= questions.length) {
         $("#next_question").text("SEND");
         $("#next_question").off("click").on("click", function () {
-            window.location.href = "../overview/checked.html";
+            window.location.href = "../overview.html";
         });
     } else {
         $("#next_question").text("NEXT");

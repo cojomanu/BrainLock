@@ -39,6 +39,6 @@ function gotQuestions(questions) {
 function navigateToNextPage() {
     const isPreview = (localStorage.getItem("preview") || "false") === "true";
 
-    if (isPreview) window.location.href = "../overview/checked.html";
+    if (isPreview) window.location.href = "../overview.html";
     else window.location.href = "quiz.html";
 }
