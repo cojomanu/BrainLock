@@ -1,0 +1,793 @@
+<root>
+<elements>
+<!--  ss-uri din mosteniri 2021  -->
+<!--  #region INSTRUCTII_PD-NR  -->
+<quizz>
+<question>Cum se numeste prescurtat instructia procesului PD-NR, de efectuare a operatiei **ȘI** bit la bit?</question>
+<answers>
+<answer index="0">AND</answer>
+<answer index="1">SHR</answer>
+<answer index="2">SHL</answer>
+<answer index="3">RET</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructia procesorului PD-NR, de deplasare stanga?</question>
+<answers>
+<answer index="0">SHR</answer>
+<answer index="1">SUB</answer>
+<answer index="2">SHL</answer>
+<answer index="3">INC</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>2</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructia procesorului PD-NR, de adunare?</question>
+<answers>
+<answer index="0">AND</answer>
+<answer index="1">RET</answer>
+<answer index="2">JUMP</answer>
+<answer index="3">ADD</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>3</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructia procesorului PD-NR, de efectuarea operatiei **SAU** bit la bit?</question>
+<answers>
+<answer index="0">PUSH</answer>
+<answer index="1">OR</answer>
+<answer index="2">xOR</answer>
+<answer index="3">DEC</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>1</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructia procesorului PD-NR, de salt?</question>
+<answers>
+<answer index="0">JUMP</answer>
+<answer index="0">CALL</answer>
+<answer index="0">RET</answer>
+<answer index="0">SET</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructia procesorului PD-NR, de apel de subrutina?</question>
+<answers>
+<answer index="0">SHR</answer>
+<answer index="1">DEC</answer>
+<answer index="2">INC</answer>
+<answer index="3">CALL</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>3</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructia procesorului PD-NR, deplasare la dreapta?</question>
+<answers>
+<answer index="0">SHR</answer>
+<answer index="1">SHL</answer>
+<answer index="2">XOR</answer>
+<answer index="3">OUT</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructia procesorului PD-NR, de revenire din subrutina?</question>
+<answers>
+<answer index="0">JUMP</answer>
+<answer index="1">CALL</answer>
+<answer index="2">RET</answer>
+<answer index="3">SET</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>2</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructia procesorului PD-NR, de scriere in stiva?</question>
+<answers>
+<answer index="0">POP</answer>
+<answer index="1">PUSH</answer>
+<answer index="2">PULL</answer>
+<answer index="3">CALL</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>1</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructia procesorului PD-NR, de efectuarea operatiei **SAU EXCLUSIV** bit la bit?</question>
+<answers>
+<answer index="0">NOR</answer>
+<answer index="1">OR</answer>
+<answer index="2">XOR</answer>
+<answer index="3">AND</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>2</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructia procesorului PD-NR, de intrare?</question>
+<answers>
+<answer index="0">PUSH</answer>
+<answer index="1">IN</answer>
+<answer index="2">INC</answer>
+<answer index="3">RET</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>1</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructia procesorului PD-NR, de decrementare?</question>
+<answers>
+<answer index="0">INC</answer>
+<answer index="1">IN</answer>
+<answer index="2">OUT</answer>
+<answer index="3">DEC</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>3</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructia procesorului PD-NR, de iesire?</question>
+<answers>
+<answer index="0">IN</answer>
+<answer index="1">CALL</answer>
+<answer index="2">OUT</answer>
+<answer index="3">OR</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>2</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructiunea procesorului PD-RN, de copiere?</question>
+<answers>
+<answer index="0">PUT</answer>
+<answer index="1">PUSH</answer>
+<answer index="2">COPY</answer>
+<answer index="3">PASTE</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>2</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructiunea procesorului PD-RN, de incrementare?</question>
+<answers>
+<answer index="0">INC</answer>
+<answer index="1">SHL</answer>
+<answer index="2">SHR</answer>
+<answer index="3">NEXT</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructiunea procesorului PD-RN, de citire din stiva?</question>
+<answers>
+<answer index="0">PUSH</answer>
+<answer index="1">POP</answer>
+<answer index="2">GET</answer>
+<answer index="3">READ</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>1</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste prescurtat instructiunea procesorului PD-NR, de scadere?</question>
+<answers>
+<answer index="0">DIV</answer>
+<answer index="1">JUMP</answer>
+<answer index="2">IN</answer>
+<answer index="3">SUB</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>3</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<!--  #endregion  -->
+<!--  #region FANIOANE_PD-NR  -->
+<quizz>
+<question>Cum se numeste fanionul care arata daca la ultima operatie efectuata in ALU, a aparut sau nu transport, la procesul PD-NR?</question>
+<answers>
+<answer index="0">Z</answer>
+<answer index="1">S</answer>
+<answer index="2">C</answer>
+<answer index="3">V</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>2</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste fanionul care arata rezultatul cu depasire sau corect, la ultima operatie efectuata in ALU, la procesorul PD-NR?</question>
+<answers>
+<answer index="0">Z</answer>
+<answer index="1">S</answer>
+<answer index="2">C</answer>
+<answer index="3">V</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>3</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste fanionul care arata rezultat negativ la ultima operatie efectuata in ALU, la procesorul PD-NR?</question>
+<answers>
+<answer index="0">Z</answer>
+<answer index="1">S</answer>
+<answer index="2">C</answer>
+<answer index="3">V</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>1</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste fanionul care arata nul sau nenul la procesorul PD-NR?</question>
+<answers>
+<answer index="0">P</answer>
+<answer index="1">V</answer>
+<answer index="2">Z</answer>
+<answer index="3">S</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>2</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum se numeste fanionul care arata paritatea sau imparitatea numarului de biti cu valoarea 1 in rezultatul ultimei operatii efectuate in ALU?</question>
+<answers>
+<answer index="0">S</answer>
+<answer index="1">V</answer>
+<answer index="2">P</answer>
+<answer index="3">Z</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>2</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<!--  #endregion  -->
+<!--  #region COMPONENTE_PD-NR  -->
+<quizz>
+<question>Care dintre urmatoarele registre reprezinta registre ale unitatii de comanda a procesului PD-NR?</question>
+<answers>
+<answer index="0">CX</answer>
+<answer index="1">X</answer>
+<answer index="2">SP</answer>
+<answer index="3">IRE</answer>
+<answer index="4">AX</answer>
+<answer index="5">DX</answer>
+<answer index="6">BX</answer>
+<answer index="7">IR</answer>
+<answer index="8">PC</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>7</correctAnswerIndex>
+<correctAnswerIndex>8</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Care dintre urmatoarele registre reprezinta registre ale unitatii de registre a procesorului PD-NR?</question>
+<answers>
+<answer index="0">C</answer>
+<answer index="1">X</answer>
+<answer index="2">DI</answer>
+<answer index="3">BX</answer>
+<answer index="4">B</answer>
+<answer index="5">AX</answer>
+<answer index="6">A</answer>
+<answer index="7">SI</answer>
+<answer index="8">B3</answer>
+<answer index="9">A0...A7</answer>
+<answer index="10">SP</answer>
+<answer index="11">B2</answer>
+<answer index="12">B1</answer>
+<answer index="13">DX</answer>
+<answer index="14">F</answer>
+<answer index="15">CX</answer>
+<answer index="16">D0...D7</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>6</correctAnswerIndex>
+<correctAnswerIndex>4</correctAnswerIndex>
+<correctAnswerIndex>0</correctAnswerIndex>
+<correctAnswerIndex>14</correctAnswerIndex>
+<correctAnswerIndex>1</correctAnswerIndex>
+<correctAnswerIndex>10</correctAnswerIndex>
+<correctAnswerIndex>12</correctAnswerIndex>
+<correctAnswerIndex>11</correctAnswerIndex>
+<correctAnswerIndex>8</correctAnswerIndex>
+</correctAnswers>
+<explanation>Registrele procesorului SP-NR sunt: A, B, C, F, X, SP, B1, B2, B3.</explanation>
+</quizz>
+<quizz>
+<question>Cum este numit prescurtat blocul de pilotare temporala, in cazul procesorului PD-NR?</question>
+<answers>
+<answer index="0">RG</answer>
+<answer index="1">CG</answer>
+<answer index="2">S</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>1</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum este numit prescurtat registrul numarator al programului in cazul procesorului PD-NR?</question>
+<answers>
+<answer index="0">PC</answer>
+<answer index="1">IR</answer>
+<answer index="2">CES</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum este numit prescurtat blocul de initializare, in cazul procesorului PD-NR?</question>
+<answers>
+<answer index="0">OCD</answer>
+<answer index="1">S</answer>
+<answer index="2">CG</answer>
+<answer index="3">RG</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>3</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum este numit prescurtat blocul de secventiere a comenzilor, in cazul procesorului PD-NR?</question>
+<answers>
+<answer index="0">OCD</answer>
+<answer index="1">S</answer>
+<answer index="2">CG</answer>
+<answer index="3">RG</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>1</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum este numit prescurtat registrul ce pastreaza octetul 1 al instructiei aflata in rulare, in cazul procesorului PD-NR?</question>
+<answers>
+<answer index="0">PC</answer>
+<answer index="1">IR</answer>
+<answer index="2">OCD</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>1</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cum este prescurtat decodificatorul cuvantului instructiei, in cazul procesorului PD-NR?</question>
+<answers>
+<answer index="0">OCD</answer>
+<answer index="1">S</answer>
+<answer index="2">CG</answer>
+<answer index="3">RG</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<!--  #endregion  -->
+<!--  #region PROBLEME_MEMORIE  -->
+<quizz>
+<question> Avand de proiectat un bloc de memorie sub urmatoarele specificatii: - capacitatea de adresare a procesorului 4 Gbytes; - capacitatea blocului de memorie 1 Gbytes; - organizare pe bytes; - capacitatea capsulelor disponibile: 512 Mlocatii * 4 biti/locatie; - timp de access intre 1,5 si 2,5 perioade de tact. Sa se indice cate capsule de memorie vor fi necesare. </question>
+<answers>
+<answer index="0">2</answer>
+<answer index="1">8</answer>
+<answer index="2">16</answer>
+<answer index="3">4</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>3</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question> Avand de proiectat un bloc de memorie sub urmatoarele specificatii: - capacitatea de adresare a procesorului: 4 Gbytes; - capacitatea blocului de memorie: 1 Gbytes; - organizare pe bytes; - capacitatea capsulelor disponibile: 512 Mlocatii * 4 biti/locatie; - timp de access intre 1,5 si 2,5 perioade de tact. Sa se indice cate linii de adresa vor fi decodificare in interiorul capsulelor de memorie. </question>
+<answers>
+<answer index="0">29</answer>
+<answer index="1">20</answer>
+<answer index="2">24</answer>
+<answer index="3">22</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation> Înțelegerea organizării memoriei: - procesorul poate adresa 4 GBytes -> necesită 32 linii de adresă (2^32 = 4G); - blocul nostru de memorie are 1 GByte -> deci va folosi doar 30 de linii de adresă (2^30 = 1G); - organizare pe bytes => fiecare locație memorează 8 biți (1 byte); - capsule disponibile: 512M locații * 4 biți/locație => fiecare locație din capsulă memorează 4 biți, deci avem nevoie de două capsule pentru a stoca un byte complet. Determinarea numărului de linii de adresă decodificate în capsulă: - fiecare capsulă are 512M locații => adică 229229 locații; - intrucât fiecare locație memorează doar 4 biți, iar sistemul este organizat pe bytes, fiecare capsulă conține jumătate dintr-un byte; - pentru a citi un byte complet, avem nevoie de două capsule în paralel; - adresarea capsulelor se face la nivel de locație, nu la nivel de byte, deci numărul de linii de adresă decodificate în interiorul capsulei este log2(512M) = 29. </explanation>
+</quizz>
+<quizz>
+<question> Avand de proiectat un bloc de memorie sub urmatoarele specificatii: - capacitatea de adresare a procesorului: 4 Gbytes; - capacitatea blocului de memorie: 1 Gbytes; - organizare pe bytes; - capacitatea capsulelor disponibile: 512 Mlocatii * 4 biti/locatie; - timp de access intre 1,5 si 2,5 perioade de tact. Sa se indice cate linii de adresa are procesorul in cauza. </question>
+<answers>
+<answer index="0">22</answer>
+<answer index="1">20</answer>
+<answer index="2">32</answer>
+<answer index="3">30</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>2</correctAnswerIndex>
+</correctAnswers>
+<explanation>Procesorul poate adresa 4 GBytes = 2^32 bytes (2^32 locatii). Pentru a adresa 2^32 locații de memorie, procesorul are nevoie de 32 de linii de adresă (deoarece fiecare linie de adresă selectează 1 dintre cele 2^32 locații).</explanation>
+</quizz>
+<quizz>
+<question> Avand de proiectat un bloc de memorie sub urmatoarele specificatii: - capacitatea de adresare a procesorului: 4 Gbytes; - capacitatea blocului de memorie: 1 Gbytes; - organizare pe bytes; - capacitatea capsulelor disponibile: 512 Mlocatii * 4 biti/locatie; - timp de access intre 1,5 si 2,5 perioade de tact. Sa se indice cate din liniile de adresa vor fi decodificate extern. </question>
+<answers>
+<answer index="0">3</answer>
+<answer index="1">2</answer>
+<answer index="2">5</answer>
+<answer index="3">4</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation> Procesorul are nevoie de 32 de linii de adresă pentru a adresa 4 Gbytes de memorie. Fiecare capsulă de memorie are 512 Mbytes, deci pentru a accesa una dintre aceste capsule, este nevoie de 29 de linii de adresă. Astfel, numărul de linii de adresă care trebuie decodificate extern (pentru a selecta capsula corectă) este diferența dintre cele 32 de linii de adresă ale procesorului și cele 29 de linii de adresă interne ale capsulelor: 32 - 29 = 3. </explanation>
+</quizz>
+<quizz>
+<question> Avand de proiectat un bloc de memorie sub urmatoarele specificatii: - capacitatea de adresare a procesorului: 4 Gbytes; - capacitatea blocului de memorie: 1 Gbytes; - organizare pe bytes; - capacitatea capsulelor disponibile: 512 Mlocatii * 4 biti/locatie; - timp de access intre 1,5 si 2,5 perioade de tact. Sa se indice de la al catelea bistabil din schema de ACK negat se va culege acest semnal. </question>
+<answers>
+<answer index="0">de la al 2-lea</answer>
+<answer index="1">de la al 4-lea</answer>
+<answer index="2">de la al 3-lea</answer>
+<answer index="3">de la primul</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>2</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Avand o memorie de 64 Kbytes, realizata cu capsule de 16 Klocatii 8bits/locatie, sa se indice in care din capsule se afla locatia de adresa B27C in hexazecimal. Numerotarea capsulelor incepe de la zero.</question>
+<answers>
+<answer index="0">2</answer>
+<answer index="1">3</answer>
+<answer index="2">4</answer>
+<answer index="3">1</answer>
+<answer index="4">0</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation> O capsula are 16Kbytes = 16 x 1024 = 16384 locatii. Adresa B27C (hexa) = 45692 (decimal). Adresele sunt impartite: - capsula 0: adrese 0000 - 3FFF (0 - 16383); - capsula 1: adrese 4000 - 7FFF (16384 - 32767); - capsula 2: adrese 8000 - BFFF (32768 - 49151); - Capsula 3: adrese C000 - FFFF (49152 - 65535). </explanation>
+</quizz>
+<!--  #endregion  -->
+<!--  #region INTREBARI_MEMORIE  -->
+<quizz>
+<question> Indicati corespondentele corecte: - memoria doar cu citire, caracterizata prin aceea ca este înscrisă de utilizator, printr-un proces specific, dupace a fost pregătită pentru aceasta prin stergere electrică, atât stergerea, cât şi inscrierea realizându-se chiar in contextual circuistic in care ea este exploatata, procesul de inscriere putand fi repetat de un număr mare de ori, de fiecare data precedat de cel de stergere, cu scrierea si stergerea mult mai rapide decât la alte memorii similar dpdv functional se numeste...; - memoria doar cu citire, caracterizată prin aceea că este înscrisă de utilizator, printr-un proces specific, cu ajutorul unui dispozitiv dedicat, fără a i se mai putea ulterior modifica conținutul se numeste...; - memoria doar cu citire, caracterizata prin aceea ca este inscrisă prin însuşi procesul sau de fabricatie, în mod imuabil se numeste...; - memoria doar cu citire, caracterizata prin aceea că este înscrisa de utilizator, printr-un proces specific, dupa ce a fost pregătită pentru aceasta prin stergere electrică, atât stergerea, cât şi inscrierea realizându-se chiar în contextual circuistic în care ea este exploatată, procesul de înscriere putând fi repetat de un număr mare de ori, de fiecare data precedat de cel de stergere se numeste...; - memoria doar cu citire, caracterizată prin aceea ca este inscrisa de utilizator, printr-un proces specific, cu ajutorul unui dispozitiv dedicat, după ce a fost pregătită pentru aceasta prin iradiere cu raze ultraviolete, procesul de inscriere putând fi repetat de un număr mare stergerea, cât şi inscrierea realizandu-se chiar in contextual circuistic in care ea este exploatata, procesul de înscriere putând fi repetat de un număr mare de ori, de fiecare data precedat de cel de stergere, cu scrierea si stergerea mult mai rapide decat la alte memorii similar dpdv functional se numeste...; </question>
+<answers>
+<answer index="0">FLASH, PROM, ROM propriu-zisa, EEPROM, EPROM</answer>
+<answer index="0">PROM, EEPROM, FLASH, ROM propriu-zisa, EPROM</answer>
+<answer index="0">ROM propriu-zisa, FLASH, EEPROM, EPROM, PROM</answer>
+<answer index="0">PROM, EPROM, EEPROM, FLASH, ROM propriu-zisa</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question> Indicați corespondentele corecte: - memoriile externe sunt o prezenta constanta in configuratia calculatoarelor de uz general...; - in calculatoarele de uz general este preponderenta memoria...; - in calculatoarele utilizate in domeniul embedded systems este preponderenta memoria...; - memoriile externe sunt o prezenta constanta in configurația calculatoarelor utilizate în domeniul embedded systems.... </question>
+<answers>
+<answer index="0">DA, RAM, ROM, NU</answer>
+<answer index="1">DA, ROM, PROM, DA</answer>
+<answer index="2">NU, ROM, ROM, NU</answer>
+<answer index="3">NU, EPROM, ROM, DA</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<!--  #endregion  -->
+<!--  #region DISPOZITIVE_INMULTIRE  -->
+<quizz>
+<question>Prin ce se caracterizeaza dispozitivul de inmultire combinational?</question>
+<answers>
+<answer index="0">Timp de inmultire foarte bun</answer>
+<answer index="1">Numar mare de circuite</answer>
+<answer index="2">Timp de inmultire slab</answer>
+<answer index="3">Numar mic de circuite</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+<correctAnswerIndex>1</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cate bistabile sunt necesare pentru implementarea automatului secvential ce constituie blocul de comanda al unui dispozitiv de inmultire in semn de marime pe 8 biti?</question>
+<answers>
+<answer index="0">6</answer>
+<answer index="1">5</answer>
+<answer index="2">4</answer>
+<answer index="3">8</answer>
+<answer index="4">7</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>2</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Cate stari are blocul de comanda al unui dispozitiv de inmultire in semn marime pe 8 biti?</question>
+<answers>
+<answer index="0">18</answer>
+<answer index="1">10</answer>
+<answer index="2">20</answer>
+<answer index="3">16</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>1</correctAnswerIndex>
+</correctAnswers>
+<explanation>8 pași principali, corespunzători fiecărui bit al unui operand, 2 pasi pentru inițializare și finalizare.</explanation>
+</quizz>
+<!--  #endregion  -->
+<!--  #region DISPOZITIVE_INPARTIRE  -->
+<quizz>
+<question>Timpul de impartire, in cazul dispozitivului de impartire in semn marime prin refacerea resturilor depinde de lungimea in biti a operanzilor:</question>
+<answers>
+<answer index="0">Exponential crescator</answer>
+<answer index="1">Dupa cu totul alta lege</answer>
+<answer index="2">Liniar crescator</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>2</correctAnswerIndex>
+</correctAnswers>
+<explanation>Algoritmul parcurge fiecare bit al deîmpărțitului secvențial, efectuând operații de scădere și deplasare. Astfel, timpul de execuție crește liniar cu numărul de biți ai operanzilor</explanation>
+</quizz>
+<quizz>
+<question>Timpul de impartire, in cazul dispozitivului de inmultire in semn marime secvential depinde de lungimea in biti a operanzilor:</question>
+<answers>
+<answer index="0">Liniar crescator</answer>
+<answer index="1">Exponential crescator</answer>
+<answer index="2">Dupa cu totul alta lege</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation>Algoritmul parcurge fiecare bit al unui operand și realizează operații de adunare și deplasare.</explanation>
+</quizz>
+<quizz>
+<question>Cate stari are blocul de comanda al unui dispozitiv de impartire in SM prin refacerea resturilor pe 8 biti?</question>
+<answers>
+<answer index="0">28</answer>
+<answer index="1">24</answer>
+<answer index="2">16</answer>
+<answer index="3">20</answer>
+<answer index="4">12</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>4</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<!--  #endregion  -->
+<!--  #region SUMATOARE  -->
+<quizz>
+<question> Indicati corespondentele corecte: - ... efectueaza operatia de adunare intr-un timp ce depinde liniar crescator de lungimea in biti a operanzilor; - ... efectueaza operatia de adunare intr-un timp ce nu depinde de lungimea in biti a operanzilor; - ... efectueaza operatia de adunare intr-un timp ce depinde exponenial crescator de lungimea in biti a operanzilor. </question>
+<answers>
+<answer index="0"> - ripple carry; - carry lookahead; - nici unul; </answer>
+<answer index="1"> - carry lookahead; - ripple carry; - nici unul; </answer>
+<answer index="2"> - carry lookahead - carry lookbehind; - ripple carry; </answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<!--  #endregion  -->
+<!--  #region PROCESOR  -->
+<quizz>
+<question>Prin ce semnal face cunoscut procesorul ca solicita un ciclu de lucru cu un port de intrare sau de iesire?</question>
+<answers>
+<answer index="0">IORQ negat</answer>
+<answer index="1">MRQ negat</answer>
+<answer index="2">RD negat</answer>
+<answer index="3">WR negat</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Prin ce semnal face cunoscut procesorul ca solicita un ciclu de lucru cu memoria?</question>
+<answers>
+<answer index="0">IORQ negat</answer>
+<answer index="1">MRQ negat</answer>
+<answer index="2">RD negat</answer>
+<answer index="3">WR negat</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>1</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<!--  #endregion  -->
+<!--  #region SEMNALE_LA_PORTURI  -->
+<quizz>
+<question>Care dintre urmatoarele semnale se regasesc la un port de intrare?</question>
+<answers>
+<answer index="0">O0...O7</answer>
+<answer index="1">EXTWR negat</answer>
+<answer index="2">OBF negat</answer>
+<answer index="3">CE negat</answer>
+<answer index="4">RD negat</answer>
+<answer index="5">EXTRD negat</answer>
+<answer index="6">I0...I7</answer>
+<answer index="7">IBF</answer>
+<answer index="8">WR negat</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+<correctAnswerIndex>1</correctAnswerIndex>
+<correctAnswerIndex>3</correctAnswerIndex>
+<correctAnswerIndex>4</correctAnswerIndex>
+<correctAnswerIndex>6</correctAnswerIndex>
+<correctAnswerIndex>7</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>Care dintre urmatoarele semnale se regasesc la un port de iesire?</question>
+<answers>
+<answer index="0">RD negat</answer>
+<answer index="1">OBF negat</answer>
+<answer index="2">O0...O7</answer>
+<answer index="3">EXTWR negat</answer>
+<answer index="4">EXTRD negat</answer>
+<answer index="5">IBF</answer>
+<answer index="6">WR negat</answer>
+<answer index="7">I0...I7</answer>
+<answer index="8">CE negat</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>1</correctAnswerIndex>
+<correctAnswerIndex>2</correctAnswerIndex>
+<correctAnswerIndex>4</correctAnswerIndex>
+<correctAnswerIndex>6</correctAnswerIndex>
+<correctAnswerIndex>7</correctAnswerIndex>
+<correctAnswerIndex>8</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<!--  #endregion  -->
+<!--  #region MISC  -->
+<quizz>
+<question> Care din reprezentarile numerelor in virgule fixă prezintă următoarele avantaje: - ... permite efectuarea adunarii prin introducerea in calcule a biților de semn in mod nedistinctiv faţă de restul biților, in doi pasi; - ... permite efectuarea adunarii prin introducerea in calcule a biţilor de semn in mod nedistinctiv fata de restul biților, intr-un singur pas; - ... permite inlocuirea scaderii prin adunarea la descazut a complementului opusului scazatorului, într-un singur pas; - ... dedica un singur cod pentru reprezentarea numărului zero; - ... permite înlocuirea scăderii prin adunarea la descăzut a complementului opusului scăzătorului, in doi pasi; - ... permite realizarea cea mai facilă a inmulţirii şi impărţirii. </question>
+<answers>
+<answer index="0"> - reprezentarea in complement de unu - reprezentarea în complement de doi - reprezentarea in complement de doi - reprezentarea in complement de doi - reprezentarea in complement de unu - reprezentarea in semn-marime </answer>
+<answer index="1"> - reprezentarea in complement de doi - reprezentarea în complement de unu - reprezentarea in complement de doi - reprezentarea in semn marime - reprezentarea in complement de doi - reprezentarea in complement de unu </answer>
+<answer index="2"> - reprezentarea in semn-marime - reprezentarea în complement de unu - reprezentarea in complement de doi - reprezentarea in complement de doi - reprezentarea in semn-marime - reprezentarea in complement unu </answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question>In proiectarea cu metoda diagramelor VID a automatelor secvenţiale (vezi automatele secvențiale reprezentate de blocurile de comandă ale dispozitivelor de înmulțire, respectiv de împărţire), codificarea stărilor trebuie să se facă obligatoriu adiacent?</question>
+<answers>
+<answer index="0">true</answer>
+<answer index="1">false</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>1</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question> Care dintre urmatoarele afirmatii este cea corecta? </question>
+<answers>
+<answer index="0">Reprezentarea în virgula mobila pe 32 de biți cuprinde: un camp dedicate semnului numarului, pe 1 bit, un camp dedicate exponentului translatat cu 128, pe 8 biti, un camp dedicate mantisei, pe 23 de biti.</answer>
+<answer index="1">Reprezentarea in virgula mobila pe 32 de biti cuprinde: un camp dedicat semnului numarului, pe 1 bit, un camp dedicat exponentului translatat cu 127, pe 8 biti, un camp dedicate excesului de 1 al mantisei, pe 23 de biti.</answer>
+<answer index="2">Reprezentarea in virgula mobila pe 32 de bițicuprinde: un camp dedicate semnului numărului pe 1 bit, un camp dedicate exponentului translatat cu 128, pe 8 biti, un camp dedicate excesului de 1 al mantisei, pe 23 de biti.</answer>
+<answer index="3">Reprezentarea in virgula mobila pe 32 de biți cuprinde: un camp dedicate semnului numarului, pe 1 bit, un camp dedicate exponentului translatat cu 127, pe 8 biti, un camp dedicate mantisei, pe 23 de biti.</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>3</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question> Indicati corespondentele corecte: - compilatoarele sunt translatoare de limbaj care la un apel al lor...; - interpretoarele sunt translatoare de limbaj care la un apel al lor...; - asambloarele sunt translatoare de limbaj care la un apel al lor.... </question>
+<answers>
+<answer index="0"> - traduc un intreg program sau modul de program si in final, genereaza codul-masina corespunzator, intr-un fisier; - traduc o linie a unui program şi introduce imediat in rulare codul-maşină rezultat, apoi trec la linia următoare ş.a.m.d; - traduc un întreg program sau modul de program şi în final, generează codul-maşină corespunzător, într-un fişiern. </answer>
+<answer index="1"> - traduc o linie a unui program şi introduce imediat in rulare codul-maşină rezultat, apoi trec la linia următoare ş.a.m.d; - traduc un întreg program sau modul de program şi în final, generează codul-maşină corespunzător, într-un fişiern. - traduc un intreg program sau modul de program si in final, genereaza codul-masina corespunzator, intr-un fisier; </answer>
+<answer index="2"> - traduc un intreg program sau modul de program si in final, genereaza codul-masina corespunzator, intr-un fisier; - traduc o linie a unui program şi introduce imediat in rulare codul-maşină rezultat, apoi trec la linia următoare ş.a.m.d; - traduc un întreg program sau modul de program şi în final, generează codul-maşină corespunzător, într-un fişiern. </answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question> Este corecta afirmatia: In proiectarea cu metoda diagramelor VID a automatelor secventiale (vezi automatele secventiale reprezentate de blocurile de comanda ale dispozitivelor de inmultire, respectiv de impartire), se parcurge urmatoarele etape: 1. Se stabileste numarul de stari, pornind de la cerintele destinatiei respectivului automat; 2. Se stabileste numarul de bistabile necesare implementarii; 3. se intocmeste organigrama de functionare; 4. Se face codificarea starilor, intocmindu-se diagrama de codificare a starilor; 5. Se intocmeste pentru fiecare bistabil diagrama starilor urmatoare; 6. Se intocmeste pentru fiecare bistabil, tinand seama de ecuatia de functionare a unui bistabil J-K, diagrama Veitch-Karnaugh corespunzatoare intrarii sale J si, in baza ei, se extrage ecuatia respectivei intrari J; 7. Se intocmeste pentru fiecare bistabil, tinand seama de ecuatia de functionare a unui bistabil J-K, diagrama Veitch-Karnaugh corespunzatoare intrarii sale K; 8. Se intocmeste pentru fiecare bistabil, tinand seama de ecuatia de functionare a unui bistabil J-K, diagrama Veitch-Karnaugh corespunzatoare intrarii sale J si, in baza ei, se extrage ecuatia respectivei intrari K; 9. Se intocmeste pentru fiecare iesire, diagrama iesirilor, tot una Veitch-Karnaugh si, in baza ei, se extrage ecuatia respectivei iesiri; 10. Se sintetizeaza toate ecuatiile obtinute, cu bistabilele si porti corespunzatoare. </question>
+<answers>
+<answer index="0">True</answer>
+<answer index="1">False</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>0</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question> Indicati corespondentele corecte: - 1 TByte = ...; - 1 PByte = ...; - 1 ZByte = ...; - 1 GByte = ...; - 1 EByte = .... </question>
+<answers>
+<answer index="0">2^20 bytes, 2^30 bytes, 2^50 bytes, 2^30 bytes, 2^80 bytes</answer>
+<answer index="1">2^40 bytes, 2^50 bytes, 2^70 bytes, 2^30 bytes, 2^60 bytes</answer>
+<answer index="2">2^25 bytes, 2^20 bytes, 2^30 bytes, 2^45 bytes, 2^12 bytes</answer>
+<answer index="3">2^30 bytes, 2^55 bytes, 2^40 bytes, 2^35 bytes, 2^25 bytes</answer>
+</answers>
+<correctAnswers>
+<correctAnswerIndex>1</correctAnswerIndex>
+</correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question> In ipoteza urmatoarelor semnificatii ale campurilor octetului 1 al unui grup de instructiuni ale procesorului PD-NR: - bitii 7...5, codul operational dupa cum urmeaza: - 001 = CP x, y; - 010 = ADD x, y; - 011 = SUB x, y; - 100 = AND x, y; - 101 = OR x, y; - 110 = XOR x, y; - bitii 4...3, specificatia pentru x dupa cum urmeaza: - 00 = A; - 01 = B; - 10 = C; - bitii 2...0, specificatia pentru y dupa cum urmeaza: - 000 = A; - 001 = B; - 010 = C; - 011 = aa; - 100 = @X; - 101 = @aaaa. Sa se precizeze cuvantul instructie al instructiei ADD A, @1234H ca insusire a cifrelor hexazecimale in care el consista, fara separatori intre ele, in ordine in care ele apar in memorie. </question>
+<answers> </answers>
+<correctAnswers> </correctAnswers>
+<explanation/>
+</quizz>
+<quizz>
+<question> Avand in memorie incepand de la adresa 0100H instructiunea CALL @1234H, cu octetul 1 al sau de valoare 1E (in hexazecimal), iar in registrul SP valoarea 0000H, sa se indice ce se are la sfarsitul instructiei CALL in locatiile de memorie de adrese hexazecimale FFFF si FFFE, cese are in registrul SP si ce se are in registrul PC, sub forma @FFFF=xx@FFFE=yySP=zzzzPC=uuuu. Atentie: nu se vor folosi in sirul de raspuns nici un fel de separatori, ci el se va constitui prin simpla inlocuire in sirul de caractere de mai sus a lui xx, yy, zzzz si uuuu, cu cifrele hexazecimale de rigoare, neinsotite de sufixul H. </question>
+<answers> </answers>
+<correctAnswers> </correctAnswers>
+<explanation/>
+</quizz>
+<!--  #endregion  -->
+</elements>
+</root>
