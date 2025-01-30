@@ -125,9 +125,9 @@ function activateTimer() {
 document.addEventListener("keydown", function (event) {
     if (event.key === "ArrowLeft") {
         // Simulate a click on the 'Prev' button when the left arrow key is pressed
-        document.getElementById("prev_button").click();
+        document.getElementById("prev_question").click();
     } else if (event.key === "ArrowRight") {
         // Simulate a click on the 'Next' button when the right arrow key is pressed
-        document.getElementById("next_button").click();
+        document.getElementById("next_question").click();
     }
 });
